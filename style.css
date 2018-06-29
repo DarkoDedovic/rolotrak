@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    height: auto;
+    
+}
+
+.navBarClass{
+   scroll-behavior: auto;
+   
+}
+
+.section{
+    
+}
+
+.bgimg {
+    background-image: url('http://www.screen.rs/assets/img/zebra-zavese-dnevna-soba.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    
+      
+}
+
+#menu{
+font-size: 0.7em;
+border-radius: 5px;
+
+}
+
