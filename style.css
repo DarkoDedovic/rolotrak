@@ -1,31 +1,16 @@
-* {
-    box-sizing: border-box;
-    height: auto;
+
+
+body {
+    height: 100%;
+    position: relative; 
+}
+
+#home {
+    padding-top:50px;
+    height:700px;
+    background-image:url('http://www.roletemondiano.com/wp-content/uploads/2014/11/1web.jpg');
     
 }
 
-.navBarClass{
-   scroll-behavior: auto;
-   
-}
 
-.section{
-    
-}
-
-.bgimg {
-    background-image: url('http://www.screen.rs/assets/img/zebra-zavese-dnevna-soba.jpg'); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 600px;
-    
-      
-}
-
-#menu{
-font-size: 0.7em;
-border-radius: 5px;
-
-}
 
