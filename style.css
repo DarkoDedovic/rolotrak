@@ -2,7 +2,8 @@
 
 body {
     height: 100%;
-    position: relative; 
+    position: relative;
+    scroll-behavior: smooth;
 }
 
 #home {
