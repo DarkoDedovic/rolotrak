@@ -9,6 +9,7 @@ body {
     padding-top:50px;
     height:100vh;
     background-image:url('http://www.roletemondiano.com/wp-content/uploads/2014/11/1web.jpg');
+    
     background-repeat: no-repeat;
     
 }
@@ -17,6 +18,7 @@ body {
     padding-top:50px;
     height:100vh;
     color:black;
+    
     background-color: white;
 }
 
