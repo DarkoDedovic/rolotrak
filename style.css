@@ -1,16 +1,65 @@
 
 
-body {
+body, html {
     height: 100%;
     position: relative; 
+    scroll-behavior: smooth;
+}
+
+.section{
+    padding:70px 0;
+    height: 100%;
+}
+
+h1{
+    margin-bottom: 1em; 
 }
 
 #home {
-    padding-top:50px;
-    height:700px;
-    background-image:url('http://www.roletemondiano.com/wp-content/uploads/2014/11/1web.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./pcs/home.jpg');
+    color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about {
+    color:black;
+    background-color: white;
+}
+
+#portfolio {
+    height: auto;
+}
+
+#contact {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./pcs/contact.jpg');
+    color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     
 }
 
+input {
+    margin-bottom: 5%;
+    
+}
 
+#btnSendMsg {
+    height: 60px;
+    margin-top:20px; 
+    background-color: gold;
+}
 
+.noPadding {
+    padding: 0;
+}
+
+#portfolioImgs img{
+    width: 100%;
+    margin-bottom: 10px;
+
+    
+}
