@@ -33,13 +33,27 @@ h1{
 }
 
 #contact {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./pcs/contact.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./pcs/contact.jpg');
     color: aliceblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+#home {
+    padding-top:50px;
+    height:100vh;
+    background-image:url('./pcs/home.jpg');
+    background-repeat: no-repeat;
     
+}
+
+#about {
+    padding-top:50px;
+    height:100vh;
+    color:black;
+    
+    background-color: white;
 }
 
 input {
@@ -60,5 +74,6 @@ input {
 #portfolioImgs img{
     width: 100%;
     margin-bottom: 10px;
+
     
 }
