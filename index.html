@@ -13,52 +13,137 @@
 
 </head>
 
-<body id="rolotrak" data-spy="scroll" data-target=".navbar" data-offset="70">
+<body id="rolotrak" data-spy="scroll" data-target=".navbar" data-offset="80">
 
-    
-        <!-- NAVBAR -->
+    <!-- NAVBAR -->
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#home">LOGO</a>
-                </div>
-                <div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav text-uppercase navbar-right">
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                            </li>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">LOGO</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav text-uppercase navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
 
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!-- HOME PAGE -->
-        <section id="home" class="container-fluid text-center">
-            <h1>Welcome to Joseva</h1>
-            <h3 class="text-uppercase">Ne volite pecenje ?</h3>
+    <!-- HOME PAGE -->
+    <section id="home" class="container-fluid text-center section">
+        <h1>Welcome to Joseva</h1>
+        <h3 class="text-uppercase">Milos i Bojana</h3>
 
-        </section>
+    </section>
 
-       
-    
+    <!-- ABOUT -->
+
+    <section id="about" class="container-fluid text-center section">
+        <h1>ABOUT</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+        </p>
+    </section>
+
+    <!-- PORTFOLIO  -->
+
+    <section id="portfolio" class="container text-center section">
+        <h1>PORTFOLIO</h1>
+        <div id="portfolioImgs">
+            <div class="col-lg-4 col-md-6 img-thumbnail">
+                <img src="./pcs/slider6.jpg" class="" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 img-thumbnail">
+                <img src="./pcs/slider6.jpg" class="" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 img-thumbnail">
+                <img src="./pcs/slider6.jpg" class="" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 img-thumbnail">
+                <img src="./pcs/slider6.jpg" class="" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 img-thumbnail">
+                <img src="./pcs/slider6.jpg" class="" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 img-thumbnail">
+                <img src="./pcs/slider6.jpg" class="" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section">
+
+        <div class="container text-center">
+
+            <div class="align-items-start">
+                <h1>CONTACT US</h1>
+                <div>
+
+                    <form class="row">
+                        <div class="col-sm-12 noPadding col-md-6">
+                            <div class="col-md-12 col-sm-12">
+                                <input type="text" class="form-control" placeholder="Your Name*">
+                            </div>
+
+                            <div class="col-md-12 col-sm-12">
+                                <input type="email" class="form-control" placeholder="Your Email*">
+                            </div>
+
+                            <div class="col-md-12 col-sm-12">
+                                <input type="text" class="form-control" placeholder="Your Phone*">
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-12 col-md-6"> -->
+                        <div class="col-sm-12 col-md-6">
+
+                            <textarea class="form-control" rows="7" aria-label="With textarea" placeholder="Your Message*"></textarea>
+
+                        </div>
+                        <!-- </div> -->
+                    </form>
+
+                    <div class="">
+                        <button type="button" id="btnSendMsg" class="btn btn-primary btn-lg">SEND MESSAGE</button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
 
 </body>
 
