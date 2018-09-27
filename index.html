@@ -13,34 +13,35 @@
 
 </head>
 
-<body id="rolotrak" data-spy="scroll" data-target=".navbar" data-offset="80">
+<body id="rolotrak" data-spy="scroll" data-offset="70">
 
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <nav id="mainNav" class="navbar navbar-inverse navbar-default navbar-fixed-top" data-spy="scroll">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#home">LOGO</a>
+                <a class="navbar-brand js-scroll-trigger" id="logo" href="#home">LOGO</a>
             </div>
             <div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;" id="myNavbar">
                     <ul class="nav navbar-nav text-uppercase navbar-right">
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+                            <a class="js-scroll-trigger" href="#home" id="item-home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                            <a class="js-scroll-trigger" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                            <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                            <a class="js-scroll-trigger" href="#contact">Contact</a>
                         </li>
 
                     </ul>
@@ -58,15 +59,17 @@
 
     <!-- ABOUT -->
 
-    <section id="about" class="container-fluid text-center section">
-        <h1>ABOUT</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
-        </p>
+    <section id="about" class="text-center section">
+        <div class="container">
+            <h1>ABOUT</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.
+            </p>
+        </div>
     </section>
 
     <!-- PORTFOLIO  -->
@@ -74,30 +77,26 @@
     <section id="portfolio" class="container text-center section">
         <h1>PORTFOLIO</h1>
         <div id="portfolioImgs">
-            <div class="col-lg-4 col-md-6 img-thumbnail">
+            <div class="col-lg-4 col-md-6 zoom noPadding">
                 <img src="./pcs/slider6.jpg" class="" alt="">
             </div>
-            <div class="col-lg-4 col-md-6 img-thumbnail">
+            <div class="col-lg-4 col-md-6 zoom noPadding">
                 <img src="./pcs/slider6.jpg" class="" alt="">
             </div>
-            <div class="col-lg-4 col-md-6 img-thumbnail">
+            <div class="col-lg-4 col-md-6 zoom noPadding">
                 <img src="./pcs/slider6.jpg" class="" alt="">
             </div>
-            <div class="col-lg-4 col-md-6 img-thumbnail">
+            <div class="col-lg-4 col-md-6 zoom noPadding">
                 <img src="./pcs/slider6.jpg" class="" alt="">
             </div>
-            <div class="col-lg-4 col-md-6 img-thumbnail">
+            <div class="col-lg-4 col-md-6 zoom noPadding">
                 <img src="./pcs/slider6.jpg" class="" alt="">
             </div>
-            <div class="col-lg-4 col-md-6 img-thumbnail">
+            <div class="col-lg-4 col-md-6 zoom noPadding">
                 <img src="./pcs/slider6.jpg" class="" alt="">
             </div>
         </div>
     </section>
-
-
-
-
 
     <!-- CONTACT -->
 
@@ -137,14 +136,12 @@
                     </div>
                 </div>
 
-
-
-
             </div>
         </div>
     </section>
 
 
+    <script src="./main.js"></script>
 </body>
 
 </html>
