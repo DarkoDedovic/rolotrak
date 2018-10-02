@@ -1,5 +1,3 @@
-
-
 body, html {
     height: 100%;
     position: relative; 
@@ -15,8 +13,7 @@ h1{
     margin-bottom: 1em; 
 }
 
-#logo {
-    
+#logo {  
     color: goldenrod;
     font-family:'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
@@ -26,15 +23,11 @@ h1{
 }
 
 #home {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./pcs/home.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./assets/images/home.jpg');
     color: aliceblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* ++++ */
-    /* padding-top:50px; */
-    /* height:100vh; */
-
 }
 
 #portfolio {
@@ -42,7 +35,7 @@ h1{
 }
 
 #contact {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./pcs/contact.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url('./assets/images/contact.jpg');
     color: aliceblue;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,14 +45,12 @@ h1{
 #about {
     padding-top:50px;
     height:100vh;
-    color:black;
-    
+    color:black;  
     background-color: white;
 }
 
 input {
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%;  
 }
 
 #btnSendMsg {
@@ -74,33 +65,25 @@ input {
     padding: 0;
 }
 
-#portfolioImgs div{
-    /* height: 300px; */
-}
-
-#portfolioImgs img{
+.portfolioImgs{
     object-fit: cover;
     width: 100%;
     height: 250px;
     moz-transition: all 0.3s;
     webkit-transition: all 0.3s;
     transition: all 0.3s;
- 
 }
 
-.zoom {   
+.portfolioItem {   
     position: relative;
-    overflow: hidden;
-     
+    overflow: hidden;    
 }
  
-.zoom:hover img {
+.portfolioItem:hover img {
         moz-transform: scale(1.1);
         webkit-transform: scale(1.1);
         transform: scale(1.1);
 }
-
-/* ====================== */
     
 @media only screen and (min-width:992px) {
     .navbar {
@@ -111,8 +94,7 @@ input {
         transition: padding-top 0.3s, padding-bottom 0.3s;
         background-color: transparent;
         border: none;
-        font-size: 1.5rem;
-        
+        font-size: 1.5rem;      
     }
     
     #myNavbar {
@@ -122,17 +104,15 @@ input {
             -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
             transition: padding-top 0.3s, padding-bottom 0.3s;
             background-color: transparent;
-            border: none;
-            
+            border: none;     
         }
 
-    .navbar-brand{
+    .navbar-brand {
             font-size: 1.25em;
             /* margin-top: 5px; */
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
-            transition: 0.3s;
-            
+            transition: 0.3s;   
         }
        
     .navbar-shrink {
@@ -145,8 +125,7 @@ input {
             background-color: black;            
            }
 
-         .navbar-newBrand{
-            font-size: 1em;
-            
+    .navbar-newBrand {
+            font-size: 1em;   
         } 
     }
